@@ -1,0 +1,43 @@
+extends base.pug
+
+block style 
+    style 
+            include ../public/site.css
+        
+block scripts 
+    script(src='/public/index.js')
+
+block body         
+    section#home 
+        div #{headLine}
+        div#small Eat,Dance,Sleep and Repeat 
+
+    section#mission 
+        h1 Our Mission
+        .box 
+            .card 
+                h3.center Arial Dance
+                .card-img 
+                    img(src="/public/m1.jpg",).imgCard
+                    p THis Dance is Famous in all india thats name is arial 
+                p.para Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, doloribus.
+            .card 
+                h3.center Jazz Dance
+                .card-img 
+                    img(src="/public/m2.png").imgCard
+                    p THis Dance is Famous sit, amet consectetur adipisicing elit. Esse cum expedita corrupti, dolore sit amet mollitia fugiat la
+                p.para Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, doloribus.
+            .card 
+                h3.center Contemporary Dance
+                .card-img 
+                    img(src="/public/m4.png").imgCard
+                    p THis Dance is Famous in all india thats name is arial
+                p.para Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, doloribus.
+
+    section#client 
+        h1 Our Clients
+        div.clientBox
+            img(src="/public/c1.png", alt="").clientImg
+            img(src="/public/c2.avif", alt="").clientImg
+            img(src="/public/c3.webp", alt="").clientImg
+            img(src="/public/c4.jpg", alt="").clientImg

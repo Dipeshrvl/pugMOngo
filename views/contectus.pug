@@ -1,0 +1,22 @@
+extends base.pug 
+
+block style 
+    style 
+        include ../public/site.css
+        include ../public/contect.css
+        
+
+block scripts
+    script(src="/public/index.js")
+
+block body 
+    h1= headLine
+
+    form(action="/contect",,ethod="post",class="myForm")
+        input(type="text",placeholder="Enter your name",class="input")
+        input(type="phone",placeholder="Enter your phone number",class="input")
+        input(type="email",placeholder="Enter your email Id",class="input")
+        input(type="text",placeholder="Enter your address",class="input")
+        input(type="text",placeholder="Enter your concern",class="input")
+        button.btnsub
+            | Submit
