@@ -1,22 +1,22 @@
-extends base.pug 
+extends base.pug
 
-block style 
-    style 
+block style
+    style
         include ../public/site.css
         include ../public/contect.css
-        
+
 
 block scripts
     script(src="/public/index.js")
 
-block body 
+block body
     h1= headLine
 
-    form(action="/contect",,ethod="post",class="myForm")
-        input(type="text",placeholder="Enter your name",class="input")
-        input(type="phone",placeholder="Enter your phone number",class="input")
-        input(type="email",placeholder="Enter your email Id",class="input")
-        input(type="text",placeholder="Enter your address",class="input")
-        input(type="text",placeholder="Enter your concern",class="input")
+    form(action="/contect",method="post",class="myForm")
+        input(type="text",name="name",placeholder="Enter your name",class="input")
+        input(type="phone",placeholder="Enter your phone number",class="input",name="phone")
+        input(type="email",placeholder="Enter your email Id",class="input",name="email")
+        input(type="text",placeholder="Enter your address",class="input",name="address")
+        input(type="text",placeholder="Enter your concern",class="input",name="desc")
         button.btnsub
             | Submit

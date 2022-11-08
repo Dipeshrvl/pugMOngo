@@ -1,159 +1,154 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-nav{
-    background-color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+nav {
+  background-color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
 }
 
-#logo
-{
-    display: flex;
-    align-items: center;
-    margin-right: 15px;
+#logo {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
 }
 
-#logo img{
-    width:50px;
-    height: 40px;
-    filter: invert(1);
+#logo img {
+  width: 50px;
+  height: 40px;
+  filter: invert(1);
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    margin-left: 5px
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
 }
 
 nav ul li {
-    padding: 15px;
-    font-weight: 500;
+  padding: 15px;
+  font-weight: 500;
 }
 
-
 nav a {
-    text-decoration: none;
-    color: white;
-    padding: 3px 4px;
-    letter-spacing: 1.2px;
+  text-decoration: none;
+  color: white;
+  padding: 3px 4px;
+  letter-spacing: 1.2px;
 }
 
 nav ul li a:hover {
-    color: rgb(164, 164, 164);
+  color: rgb(164, 164, 164);
 }
 #home {
-    height: 530px;
-    background-color: rgb(69, 52, 46);
-    font-size: 45px;
-    color: black;
-    font-family:cursive;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 90px;
-    background: center/cover no-repeat url("/public/d2.jpg");
+  height: 530px;
+  background-color: rgb(69, 52, 46);
+  font-size: 45px;
+  color: black;
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 90px;
+  background: center/cover no-repeat url("/public/d2.jpg");
 }
 
 #small {
-    font-size: 30px;
-    margin-top: 10px;
-    font-weight: bolder;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-
 #mission {
-    height: 350px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+  height: 350px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #mission h1 {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 26px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 26px;
 }
 
-.box{
-    margin: 20px auto;
-    width: 90%;
-    display: flex;
+.box {
+  margin: 20px auto;
+  width: 90%;
+  display: flex;
 }
 
-.card{
-    width: 330px;
-    height: 240px;
-    border: 2px solid black;
-    padding: 10px 20px;
-    border-radius: 20px;
-    margin: 10px 25px;
-    box-shadow: 0px 0px 15px 0px rgb(171, 170, 170);
+.card {
+  width: 430px;
+  height: 240px;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 10px 25px;
+  box-shadow: 0px 0px 15px 0px rgb(171, 170, 170);
 }
 
 .card-img {
-    height: 100px;
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    padding: 2px 5px;
-    font-size: 14px;
+  height: 100px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  padding: 2px 5px;
+  font-size: 16px;
 }
-.para{
-    font-size: 12px;
-    text-align: center;
-    margin-top: 10px;
-    padding: 10px;
-}
-
-.imgCard{
-    width: 110px;
-    height: inherit;
-    margin-right: 10px;
+.para {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
 }
 
-#client  {
-    height: 300px;
-    background-color: bisque;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.imgCard {
+  width: 110px;
+  height: inherit;
+  margin-right: 10px;
+}
+
+#client {
+  height: 300px;
+  background-color: bisque;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 #client h1 {
-    text-align: center;
-    padding-top: 20px;
-    font-size: 28px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 28px;
 }
 
-.clientBox{
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px auto;
+.clientBox {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
 }
 
-.clientImg{
-    width: 230px;
-    height: 200px;
-    border-radius: 20px;
+.clientImg {
+  width: 230px;
+  height: 200px;
+  border-radius: 20px;
 }
 
-footer{
-    height: 50px;
-    background-color: black;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family:cursive;
+footer {
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: cursive;
 }
 
-.center{
-    text-align: center;
+.center {
+  text-align: center;
 }
-
-
